@@ -1,0 +1,53 @@
+main {
+    flex: 1;
+    padding: 6.25rem 1.25rem 1.25rem 1.25rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+}
+
+.content-title {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    padding: 0.3125rem 0.625rem;
+}
+
+.link-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    margin-bottom: 1rem;
+}
+
+main > .link-group > a {
+    margin: 0 0.9375rem;
+    text-decoration: none;
+    background-color: rgba(0, 255, 0, 0.5);
+    color: black;
+    padding: 0.5rem 1.75rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    width: 10rem;
+    text-align: center;
+}
+
+main > .link-group > a:hover {
+    opacity: 0.75;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: cover;   /* 确保背景图充满整个页面 */
+    background-position: center;   /* 背景图居中 */
+    background-attachment: fixed;   /* 背景图在滚动时保持固定 */
+    background-repeat: no-repeat;   /* 不重复背景图 */
+}

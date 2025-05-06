@@ -1,0 +1,8 @@
+{% extends "base_page.html" %}
+
+{% block content %}
+    <div>
+        <h1> hhh 不会写</h1>
+        <h2>sdflkj</h2>
+    </div>
+{% endblock %}

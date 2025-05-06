@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Markdown.css') }}">
+
+
+</head>
+<body>
+<main>
+    <div class="content-wrapper">
+        <!-- 渲染 Markdown 转换后的 HTML 内容 -->
+        <div class="markdown-content">{{ content|safe }}</div>  <!-- 使用 safe 过滤器来渲染 HTML -->
+    </div>
+</main>
+</body>
+</html>
