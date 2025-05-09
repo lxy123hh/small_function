@@ -26,45 +26,33 @@ vue -V
 在终端中，进入你希望创建项目的目录，运行以下命令：
 
 ```bash
-vue create my-vue3-map
+vue create map
 ```
 
-系统会提示你选择预设，选择 `Default (Vue 3)`，然后按回车。([vue-js.com][3])
+系统会提示你选择预设，选择 `Default (Vue 3)`，然后按回车。
 
-创建完成后，进入项目目录并启动开发服务器：([CSDN博客][2])
+创建完成后，进入项目目录并启动开发服务器：
 
 ```bash
 cd my-vue3-map
-npm run serve
+pnpm run serve
 ```
 
 打开浏览器，访问 `http://localhost:8080`，你将看到 Vue 的欢迎页面。
 
----
+![image-20250509143017885](./README.assets/image-20250509143017885.png)
 
-## 🗂️ 第三步：了解项目结构
 
-项目的主要目录和文件如下：
 
-* `public/`：存放静态资源，如 `index.html`。
-* `src/`：存放源代码。
-
-  * `assets/`：存放图片等资源。
-  * `components/`：存放 Vue 组件。
-  * `App.vue`：根组件。
-  * `main.js`：入口文件。([CSDN博客][4], [CSDN博客][5], [CSDN博客][1])
-
----
-
-## 🗺️ 第四步：集成高德地图
+## 3.集成高德地图
 
 ### 1. 注册高德开发者账号
 
-前往 [高德开放平台](https://lbs.amap.com/) 注册账号，并申请 Web 端的 Key。([CSDN博客][6])
+前往 [高德开放平台](https://lbs.amap.com/) 注册账号，并申请 Web 端的 Key。
 
 ### 2. 安装高德地图插件
 
-在项目根目录下，运行以下命令安装高德地图的加载器：([CSDN博客][7])
+在项目根目录下，运行以下命令安装高德地图的加载器：
 
 ```bash
 npm install @amap/amap-jsapi-loader
@@ -158,3 +146,5 @@ export default {
 ```
 
 保存后，地图上将显示一个标记点。
+
+[6]: 
