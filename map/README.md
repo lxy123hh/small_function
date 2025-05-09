@@ -1,23 +1,13 @@
-当然可以！作为前端初学者，我们将一步步从零开始搭建一个 Vue 3 项目，并实现基本的地图功能。以下是详细的指导：
+## 1.安装开发环境
 
----
-
-## 🧰 第一步：安装开发环境
-
-### 1. 安装 Node.js 和 npm
-
-Vue 3 项目需要 Node.js 环境。请前往 [Node.js 官网](https://nodejs.org/) 下载并安装最新的稳定版本。安装完成后，打开终端（Windows 用户可使用命令提示符或 PowerShell），输入以下命令验证安装：([CSDN博客][1])
+Vue 3 项目需要 Node.js 环境。输入以下命令验证安装：
 
 ```bash
 node -v
 npm -v
 ```
 
-如果能看到版本号，说明安装成功。
-
-### 2. 安装 Vue CLI
-
-Vue CLI 是 Vue.js 的官方脚手架工具，可帮助我们快速创建项目。([CSDN博客][2])
+Vue CLI 是 Vue.js 的官方脚手架工具，可帮助我们快速创建项目。在终端全局安装
 
 ```bash
 npm install -g @vue/cli
@@ -29,13 +19,11 @@ npm install -g @vue/cli
 vue -V
 ```
 
-如果能看到版本号，说明安装成功。
 
----
 
-## 🏗️ 第二步：创建 Vue 3 项目
+## 2.创建 Vue 3 项目
 
-在终端中，进入你希望创建项目的目录，运行以下命令：([CSDN博客][2])
+在终端中，进入你希望创建项目的目录，运行以下命令：
 
 ```bash
 vue create my-vue3-map
@@ -170,19 +158,3 @@ export default {
 ```
 
 保存后，地图上将显示一个标记点。
-
----
-
-## 🎉 恭喜！
-
-你已经成功从零开始搭建了一个 Vue 3 项目，并集成了高德地图，实现了基本的地图显示和标记功能。
-
-如果你希望进一步学习如何绘制区域、添加事件监听、实现地图交互等功能，请告诉我，我将继续为你提供详细的指导！
-
-[1]: https://blog.csdn.net/ykrsgs/article/details/136505937?utm_source=chatgpt.com "【保姆级】教小白从0开始创建一个vue3项目 - CSDN博客"
-[2]: https://blog.csdn.net/qq_40702349/article/details/136561356?utm_source=chatgpt.com "从零搭建Vue3项目（小白教程） 原创 - CSDN博客"
-[3]: https://www.vue-js.com/topic/607793954590fe0031e59759?utm_source=chatgpt.com "Vue 小白课（五）——Vue3 + Vite 及VueCLI4项目搭建__Vue.js"
-[4]: https://blog.csdn.net/weixin_45198573/article/details/129801955?utm_source=chatgpt.com "vue3项目目录结构详解-CSDN博客"
-[5]: https://blog.csdn.net/weixin_43025343/article/details/131766006?utm_source=chatgpt.com "详细介绍 Vue3 的常见目录结构_vue3 目录结构-CSDN博客"
-[6]: https://blog.csdn.net/wsj1156912876/article/details/129653916?utm_source=chatgpt.com "Vue3集成高德地图方法_vue3 amapui怎么用-CSDN博客"
-[7]: https://blog.csdn.net/qq_42772252/article/details/121335061?utm_source=chatgpt.com "Vue3调用高德地图_vue3中使用高德地图-CSDN博客"
