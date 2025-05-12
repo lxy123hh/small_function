@@ -5,6 +5,7 @@
   <script>
   import AMapLoader from '@amap/amap-jsapi-loader';
   
+  
   export default {
     name: 'MapContainer',
     mounted() {
