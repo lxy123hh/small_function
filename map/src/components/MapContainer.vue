@@ -1,11 +1,11 @@
 <template>
-    <div id="map" style="width: 100%; height: 800px; margin: 0%; padding: 0%;"></div>
+    <div id="map"></div>
   </template>
   
   <script>
   import AMapLoader from '@amap/amap-jsapi-loader';
   
-  
+
   export default {
     name: 'MapContainer',
     mounted() {
@@ -16,8 +16,8 @@
       })
         .then((AMap) => {
           new AMap.Map('map', {
-            center: [116.397428, 39.90923], // 初始中心点
-
+            //center: [116.397428, 39.90923], // 初始中心点
+            center: [119.5143, 32.1993],
             zoom: 13, // 初始缩放级别
           });
         })
@@ -32,5 +32,8 @@
   #map {
     width: 100%;
     height: 500px;
+  }
+  .html {
+    padding: 0;
   }
   </style>

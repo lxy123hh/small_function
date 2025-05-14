@@ -1,5 +1,6 @@
-## 1.安装开发环境
+# 高德地图基础调用
 
+## 1.安装开发环境
 
 Vue 3 项目需要 Node.js 环境。输入以下命令验证安装：
 
@@ -11,7 +12,7 @@ npm -v
 Vue CLI 是 Vue.js 的官方脚手架工具，可帮助我们快速创建项目。在终端全局安装
 
 ```bash
-npm install -g @vue/cli
+pnpm install -g @vue/cli
 ```
 
 安装完成后，输入以下命令验证安装：
@@ -56,7 +57,7 @@ pnpm run serve
 在项目根目录下，运行以下命令安装高德地图的加载器：
 
 ```bash
-npm install @amap/amap-jsapi-loader
+pnpm install @amap/amap-jsapi-loader
 ```
 
 ### 3. 创建地图组件
@@ -147,5 +148,3 @@ export default {
 ```
 
 保存后，地图上将显示一个标记点。
-
-[6]: 
