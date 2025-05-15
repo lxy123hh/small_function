@@ -33,7 +33,5 @@
     width: 100%;
     height: 500px;
   }
-  .html {
-    padding: 0;
-  }
+
   </style>
