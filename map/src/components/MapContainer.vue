@@ -14,18 +14,18 @@
         version: '2.0',
         plugins: [],
       })
-        .then((AMap) => {
-          new AMap.Map('map', {
-            //center: [116.397428, 39.90923], // 初始中心点
-            center: [119.5143, 32.1993],
-            zoom: 13, // 初始缩放级别
-          });
-          new Amap.Marker({
-            position: [119.5143, 32.1993], // 标记点位置
-            map: map, // 添加到地图上
-            title: 'Hello World', // 标记点标题
-          });
-        })
+      .then((AMap) => {
+  const map = new AMap.Map('map', {
+    center: [116.397428, 39.90923],
+    zoom: 13,
+  });
+
+  new AMap.Marker({
+    position: [116.397428, 39.90923],
+    map: map,
+    title: '天安门',
+  });
+})
         .catch((e) => {
           console.error(e);
         });
