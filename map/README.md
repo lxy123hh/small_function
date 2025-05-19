@@ -36,7 +36,7 @@ vue create map
 创建完成后，进入项目目录并启动开发服务器：
 
 ```bash
-cd my-vue3-map
+cd map
 pnpm run serve
 ```
 
@@ -66,7 +66,7 @@ pnpm install @amap/amap-jsapi-loader
 
 ```vue
 <template>
-  <div id="map" style="width: 100%; height: 500px;"></div>
+  <div id="map"></div>
 </template>
 
 <script>

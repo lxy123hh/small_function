@@ -20,6 +20,11 @@
             center: [119.5143, 32.1993],
             zoom: 13, // 初始缩放级别
           });
+          new Amap.Marker({
+            position: [119.5143, 32.1993], // 标记点位置
+            map: map, // 添加到地图上
+            title: 'Hello World', // 标记点标题
+          });
         })
         .catch((e) => {
           console.error(e);
