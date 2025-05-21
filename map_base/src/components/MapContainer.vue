@@ -17,7 +17,7 @@
       .then((AMap) => {
   const map = new AMap.Map('map', {
     center: [116.397428, 39.90923],
-    zoom: 13,
+    zoom: 12,
   });
 
   new AMap.Marker({
